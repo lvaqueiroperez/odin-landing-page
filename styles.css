@@ -8,13 +8,14 @@ html {
     box-sizing: inherit;
 }
 
+/*****************************************************/
 body {
     margin: 0;
     min-height: 100vh;
     font-family: Roboto, Arial, sans-serif;
     display: flex;
     flex-direction: column;
- 
+
 }
 
 .header {
@@ -27,7 +28,7 @@ body {
 .header .navigation {
     display: flex;
     justify-content: center;
-    gap:50px;
+    gap: 50px;
 }
 
 .navigation ul {
@@ -54,8 +55,9 @@ body {
     align-items: center;
 }
 
-.hero-text {
-    flex-basis: 450px;
+.hero-content {
+    width: 450px;
+    flex: 0 1 auto;
 }
 
 .hero-main-text {
@@ -69,7 +71,9 @@ body {
     font-size: 18px;
 }
 
-.hero-img .img {
-   height: auto;
-   width: 300px;
+.hero-img {
+    width: 450px;
+    min-width: 250px;
+    height: auto;
+    flex: 0 1 auto;
 }
