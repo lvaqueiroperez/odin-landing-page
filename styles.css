@@ -101,6 +101,7 @@ body {
     height: auto;
     flex: 0 1 auto;
 }
+
 /*****************************************************/
 .info {
     display: flex;
@@ -150,7 +151,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     width: 830px;
     min-width: 500px;
     margin: 0px auto;
@@ -167,4 +168,45 @@ body {
     color: #1F2937;
     font-weight: 900;
     align-self: flex-end;
+}
+
+
+/*****************************************************/
+
+.signup {
+    width: 1000px;
+    background-color: #3882F6;
+    align-self: center;
+    margin: 80px 0px;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.signup .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.signup .text {
+    color: white;
+
+}
+
+.signup .title {
+    font-weight: 900;
+    font-size: 19px;
+}
+
+.signup button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 900;
+    border: 2px white solid;
+    border-radius: 8px;
+    padding: 8px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
 }
