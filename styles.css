@@ -23,12 +23,23 @@ body {
     flex-direction: column;
     gap: 50px;
     background-color: #1F2937;
+    padding-bottom: 65px;
 }
 
 .header .navigation {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    align-items: center;
+    padding: 15px;
+    gap: 480px;
+
+}
+
+.logo {
+    height: auto;
+    width: 50px;
+    min-width: 50px;
+    flex: 0 0 auto;
 }
 
 .navigation ul {
@@ -69,6 +80,19 @@ body {
 .hero-sec-text {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.hero-content button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+
 }
 
 .hero-img {
