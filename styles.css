@@ -146,16 +146,15 @@ body {
 .quote {
     padding: 65px;
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 830px;
-    min-width: 500px;
-    margin: 0px auto;
+    flex-basis: 830px;
 }
 
 .quote-text {
