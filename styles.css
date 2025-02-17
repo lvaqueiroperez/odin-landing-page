@@ -138,3 +138,33 @@ body {
     height: 150px;
     width: 150px;
 }
+
+/*****************************************************/
+
+.quote {
+    padding: 65px;
+    background-color: #E5E7EB;
+}
+
+.quote .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 830px;
+    min-width: 500px;
+    margin: 0px auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: 900;
+    align-self: flex-end;
+}
