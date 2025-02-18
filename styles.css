@@ -142,15 +142,15 @@ body {
 
 /*****************************************************/
 
-.quote {
-    padding: 65px;
+.quote-container {
+    padding: 100px;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.quote .content {
+.quote-container .content {
     display: flex;
     flex-direction: column;
     flex-basis: 830px;
