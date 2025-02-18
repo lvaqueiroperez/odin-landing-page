@@ -172,29 +172,28 @@ body {
 
 /*****************************************************/
 
-.signup {
+.signup-container {
     background-color: #3882F6;
     align-self: center;
     margin: 100px 0px;
     padding: 50px 100px;
     border-radius: 8px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 150px;
 }
 
-.signup .text {
+.signup-container .text {
     color: white;
 
 }
 
-.signup .title {
+.signup-container .title {
     font-weight: 900;
     font-size: 19px;
 }
 
-.signup button {
+.signup-container button {
     background-color: #3882F6;
     color: white;
     font-weight: 900;
@@ -203,6 +202,7 @@ body {
     padding: 8px 30px;
     font-size: 14px;
     cursor: pointer;
+    flex: 1 0 auto;
 }
 
 /*****************************************************/
